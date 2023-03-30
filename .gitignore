@@ -1,0 +1,5 @@
+/node_modules
+/unit-test/node_modules
+/typescript/node_modules
+/*/node_modules
+/*/out
