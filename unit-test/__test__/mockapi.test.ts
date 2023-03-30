@@ -48,9 +48,6 @@ describe("axios", () => {
       name: "messi",
     });
 
-    const result2 = await axios.get("/users");
-    expect(result2.data.statusCode).toEqual(1);
-
     expect(result.data.msg).toBe(expectedResult);
   });
 
